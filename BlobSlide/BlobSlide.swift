@@ -64,6 +64,7 @@ class BlobSlide: UIControl, ObservingViewDelegate {
         attachment3.damping = 0.1
         attachment3.frequency = 3
         _animator.addBehavior(attachment3)
+        
         let attachment4 = UIAttachmentBehavior.init(item: handle, attachedToAnchor: handle.center.moveBy(-width, y: 0))
         attachment4.damping = 0.1
         attachment4.frequency = 3
