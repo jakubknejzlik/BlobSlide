@@ -14,7 +14,6 @@
 		EE0B3C1A1BCA8BB700F9BB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0B3C181BCA8BB700F9BB97 /* LaunchScreen.storyboard */; };
 		EE0B3C221BCA8C0400F9BB97 /* BlobSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B3C211BCA8C0400F9BB97 /* BlobSlide.swift */; settings = {ASSET_TAGS = (); }; };
 		EE3642991BCAADF500B549F8 /* CGPoint+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3642981BCAADF500B549F8 /* CGPoint+Move.swift */; settings = {ASSET_TAGS = (); }; };
-		EE36429B1BCAB5B500B549F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE36429A1BCAB5B500B549F8 /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		EE0B3C1B1BCA8BB700F9BB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0B3C211BCA8C0400F9BB97 /* BlobSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobSlide.swift; sourceTree = "<group>"; };
 		EE3642981BCAADF500B549F8 /* CGPoint+Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Move.swift"; sourceTree = "<group>"; };
-		EE36429A1BCAB5B500B549F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				EE0B3C1B1BCA8BB700F9BB97 /* Info.plist */,
 				EE0B3C211BCA8C0400F9BB97 /* BlobSlide.swift */,
 				EE3642981BCAADF500B549F8 /* CGPoint+Move.swift */,
-				EE36429A1BCAB5B500B549F8 /* README.md */,
 			);
 			path = BlobSlide;
 			sourceTree = "<group>";
@@ -147,7 +144,6 @@
 			files = (
 				EE0B3C121BCA8BB700F9BB97 /* ViewController.swift in Sources */,
 				EE0B3C101BCA8BB700F9BB97 /* AppDelegate.swift in Sources */,
-				EE36429B1BCAB5B500B549F8 /* README.md in Sources */,
 				EE0B3C221BCA8C0400F9BB97 /* BlobSlide.swift in Sources */,
 				EE3642991BCAADF500B549F8 /* CGPoint+Move.swift in Sources */,
 			);
