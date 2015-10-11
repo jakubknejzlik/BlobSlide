@@ -105,10 +105,10 @@ class BlobSlide: UIControl, ObservingViewDelegate {
     }
     func updateDragLocation() {
         if let trackingTouch = trackingTouch {
-            var location = trackingTouch.locationInView(self)
+            var location = trackingTouch.locationInView(self).moveBy(-startingOffest.x, y: 0)
             location.y = CGRectGetHeight(bounds) / 2
             location.x = min(max(location.x, 0),CGRectGetWidth(bounds))
-            dragAttachment.anchorPoint = location.moveBy(-startingOffest.x, y: 0)
+            dragAttachment.anchorPoint = location
         }
     }
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
